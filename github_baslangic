@@ -1,0 +1,10 @@
+// BİSMİLLAH HER HAYRIN BAŞIDIR 
+                 //~BSN~
+
+
+void main(List<String> args) {
+  List<String> BSN = ["Bismillah", "her", "hayrın", "başıdır!"];
+  for (var i = 0; i < BSN.length; i++) {
+    print("${BSN[i]}");
+  }
+}
