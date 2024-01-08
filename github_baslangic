@@ -1,6 +1,6 @@
 // BİSMİLLAH HER HAYRIN BAŞIDIR 
                  //~BSN~
-
+//neden bzn değil bediuz zamansaid nursi değil mi
 
 void main(List<String> args) {
   List<String> BSN = ["Bismillah", "her", "hayrın", "başıdır!"];
