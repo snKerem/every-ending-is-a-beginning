@@ -1,0 +1,18 @@
+int main(int argc, char *argv[]) {
+    
+    int n;
+    printf("----------Lutfen asal olup olmadigini merak ettiginiz sayiyi giriniz------------\n");
+    scanf("%d",&n);
+    if(n==2) {
+        printf("\t~2 asal sayidir.");
+        return 2;
+    }
+    for (int i = 3; i < n; i++) {
+        if(n%i!=0)
+            continue;
+        else {
+            printf("\t%d sayisi asal sayi degildir !!!(%d sayisina tam bolunur(%d*%d))\n",n,i,i,n/i);
+            return 1;
+        }
+    }
+}
